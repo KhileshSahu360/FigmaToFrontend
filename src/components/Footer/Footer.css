@@ -1,3 +1,20 @@
 .footer{
   max-width: 1000px !important;
 }
+@media screen and (max-width:767px) {
+  .footer{
+    grid-template-columns: 1fr !important;
+  }
+  .divider{
+    margin-top:40px !important;
+  }
+  .subscribe_btn{
+    font-size:.8rem !important;
+  }
+  .input{
+    padding:5px !important;
+  }
+  .social_icon_cont{
+    margin-top :30px !important;
+  }
+}

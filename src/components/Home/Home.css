@@ -11,3 +11,81 @@
 .gradient-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent) !important;
 }
+@media screen and (max-width:767px) {
+  .img_text{
+    font-size: .8rem !important;
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+  }
+  .para{
+    font-size: 1rem !important;
+  }
+  .home{
+    width: 80% !important;
+  }
+  .hide_this{
+    display: none !important;
+  }
+  .cont{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    margin-bottom:3rem !important;
+  }
+  .shedule_cont{
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+  .shedule_icon{
+    font-size: 1.5rem;
+  }
+  .shedule_text{
+    font-size: 1rem !important;
+    width: 60% !important;
+  }
+  .card_cont{
+    grid-template-columns: 1fr !important;
+  }
+  .hide_btn{
+    display: none !important;
+  }
+  .achieve_cont{
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .card_cont{
+    margin-top: 40px !important;
+  }
+  .scard_cont{
+    display:grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 30px !important;
+  }
+  .school_logo{
+    background-color: #F6F6F6 !important;
+    border-radius: 10px !important;
+    padding: 20px;
+    box-sizing: content-box !important;
+    gap: 10px !important;
+  }
+  .s3, .s4{
+    padding: 20px 25px;
+  }
+  .threedot{
+    display:none !important;
+  }
+  .subs_cale_cont{
+    gap: 30px !important;
+  }
+}
+@media screen and (max-width:400px) {
+  .subs_cale_cont{
+    gap: 5px !important;
+  }
+  .cost_text{
+    font-size: .5rem !important;
+  }
+  .img_text{
+    font-size: .6rem !important;
+    padding-top:5px !important;
+    padding-bottom:5px !important;
+  }
+}

@@ -8,3 +8,9 @@
   color:#5271FF;
   transition: all 200ms;
 }
+@media screen and (max-width:767px) {
+  .desk_nav{
+    display: none !important;
+  }
+  
+}
