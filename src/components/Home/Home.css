@@ -1,0 +1,13 @@
+.home{
+  max-width:1000px !important;
+}
+.para{
+  font-weight:600;
+  font-size:1.4rem;
+}
+.thumbnail{
+  border-radius:7px;
+}
+.gradient-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent) !important;
+}
