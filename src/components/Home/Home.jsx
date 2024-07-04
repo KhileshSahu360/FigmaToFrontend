@@ -135,13 +135,13 @@ const Home = () => {
             <div className='w-[70%]'>
               <p>After subscribing to the monthly calendar, teachers can select a date and time for the session according to their convenience</p>
             </div>
-            <div className='flex lg:gap-4 md:gap-5 mt-8 subs_cale_cont'>
-              <div className='bg-[#F6F6F6] px-3 py-1 rounded-md -gap-2 flex flex-col'>
-                <label htmlFor=""className='font-bold  text-[.9rem]'>INR 99/-</label>
+            <div className='flex lg:gap-4 md:gap-5 mt-8  achieve_title'>
+              <div className='bg-[#F6F6F6] px-3 py-1 round achieve_subtitleed  -gap-2 flex flex-col'>
+                <label htmlFor=""className='font-bold  text-[.9rem] cost_suptext'>INR 99/-</label>
                 <label htmlFor="" className='text-[0.6rem] cost_text'>Cost Per Teacher</label>
               </div>
               <div>
-                <Button className='bg-mainColor py-6 md:px-3 lg:px-5'>Subscribe Calendar</Button>
+                <Button className='bg-mainColor py-6 md:px-3 lg:px-5 sub_btn'>Subscribe Calendar</Button>
               </div>
             </div>
           </div>
@@ -162,43 +162,43 @@ const Home = () => {
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#42A4FF] p-3 bg-[#E8F4FF] rounded-md`}><IoVideocamOutline/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>5,000,000+</label>
-                        <label htmlFor="" className='text-[.8rem]'>Minutes Watched</label>
+                        <label htmlFor="" className='font-bold achieve_title'>5,000,000+</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Minutes Watched</label>
                     </div>
                 </div>
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#A429FF] p-3 bg-[#F4E5FF] rounded-md`}><BsIncognito/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>Free</label>
-                        <label htmlFor="" className='text-[.8rem]'>Certificate Programs</label>
+                        <label htmlFor="" className='font-bold achieve_title'>Free</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Certificate Programs</label>
                     </div>
                 </div>
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#56D595] p-3 bg-[#EBF9F4] rounded-md`}><FaRegMap/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>80+</label>
-                        <label htmlFor="" className='text-[.8rem]'>Contries</label>
+                        <label htmlFor="" className='font-bold achieve_title'>80+</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Contries</label>
                     </div>
                 </div>
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#FFBE3D] p-3 bg-[#FFF7E8] rounded-md`}><PiUsersThin/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>100,000+</label>
-                        <label htmlFor="" className='text-[.8rem]'>Community Members</label>
+                        <label htmlFor="" className='font-bold achieve_title'>100,000+</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Community Members</label>
                     </div>
                 </div>
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#56D595] p-3 bg-[#EBF9F4] rounded-md`}><RiGlobalLine/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>50,000+</label>
-                        <label htmlFor="" className='text-[.8rem]'>Attendence Worldwide</label>
+                        <label htmlFor="" className='font-bold achieve_title'>50,000+</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Attendence Worldwide</label>
                     </div>
                 </div>
               <div className='flex gap-5 items-center'>
                   <label htmlFor="" className={`text-[#F25767] p-3 bg-[#FDEAEC] rounded-md`}><GiCampCookingPot/></label>
                     <div className='flex flex-col tracking-wide'>
-                        <label htmlFor="" className='font-bold'>150+</label>
-                        <label htmlFor="" className='text-[.8rem]'>Events</label>
+                        <label htmlFor="" className='font-bold achieve_title'>150+</label>
+                        <label htmlFor="" className='text-[.8rem] achieve_subtitle'>Events</label>
                     </div>
                 </div>
           </div>

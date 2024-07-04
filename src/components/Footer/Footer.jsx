@@ -52,7 +52,7 @@ const Footer = () => {
             <div>
               <label htmlFor="" className='font-bold'>SUBSCRIBE</label>
             </div>
-            <div className='flex gap-3'>
+            <div className='flex flex-wrap gap-3'>
               <input type="text" placeholder='Enter email ID' className='border-2 outline-none input focus:border-mainColor focus:border-2 rounded px-2 py-1'  />
               <Button className="bg-mainColor subscribe_btn">Subscribe</Button>
             </div>

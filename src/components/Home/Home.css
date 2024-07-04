@@ -89,3 +89,43 @@
     padding-bottom:5px !important;
   }
 }
+@media screen and (max-width:370px) {
+  .subs_cale_cont{
+    gap: 3px !important;
+  }
+  .cost_text{
+    font-size: .46rem !important;
+  }
+  .achieve_cont{
+    gap: 5px !important;
+    row-gap: 2rem !important;
+  }
+  .achieve_title{
+    font-size: .8rem !important;
+  }
+  .achieve_subtitle{
+    font-size: .5rem !important;
+  }
+  .input{
+    font-size: .9rem !important;
+  }
+  .cost_suptext{
+    font-size: .7rem !important;
+  }
+  .achieve_subtitleed{
+    padding: 4px 8px !important;
+  }
+  .sub_btn{
+    padding: 4px 8px !important;
+  }
+  .achieve_title{
+    gap: 5px !important;
+  }
+}
+@media screen and (max-width:330px) {
+  
+  .achieve_cont{
+    gap: 7px !important;
+    row-gap: 2rem !important;
+  }
+}
